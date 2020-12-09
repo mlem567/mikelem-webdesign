@@ -15,6 +15,10 @@ html {
     font-size: 1em;
     line-height: 1.4;
     height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*
@@ -129,7 +133,6 @@ body {
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 1.1em;
   line-height: 1.5em;
   border-radius: 10px;
   padding: 0px 30px;
@@ -327,4 +330,15 @@ a{
     h3 {
         page-break-after: avoid;
     }
+
+    @media screen and (min-width: 786px) {
+      #content p  {
+        font-size: 2em;
+      }
+    }
+
+    @media screen and (min-width: 1200px) {
+      #content p  {
+        font-size: 4em;
+      }
 }
